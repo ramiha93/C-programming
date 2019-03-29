@@ -1,0 +1,15 @@
+KOMMUNIKASJON MED SERVER
+
+
+Jeg bruker en char for å sende meldinger til Server.
+
+- I getJob(); metoden setter jeg verdien "G" hvis jeg ønsker å hente job fra server.
+
+- I isCorrupt(); metoden setter jeg verdien "E" for å varsle server at klienten
+  terminerer på grunn av feil.
+
+- Siden menyen til programmet tilbyr fire valg ("1", "2", "3", "4") der "4" er å
+  "Avslutte programmet" sender jeg i if-setningen til valg "4" verdien "T" for å
+  varsle serveren at klienten terminerer normalt.
+
+
